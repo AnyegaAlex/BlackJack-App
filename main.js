@@ -25,6 +25,10 @@ let sum = firstCard + secondCard
       messageEl.innerHTML = message
   }
 
+  function newCard() {
+    messageEl.textContent = " Drawing a new card !"
+  }
+
   
 
 
